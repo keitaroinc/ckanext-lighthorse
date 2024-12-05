@@ -1,0 +1,14 @@
+# lighthorse-js:
+#   filter: rjsmin
+#   output: ckanext-lighthorse/%(version)s-lighthorse.js
+#   contents:
+#     - js/lighthorse.js
+#   extra:
+#     preload:
+#       - base/main
+
+# lighthorse-css:
+#   filter: cssrewrite
+#   output: ckanext-lighthorse/%(version)s-lighthorse.css
+#   contents:
+#     - css/lighthorse.css
