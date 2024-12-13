@@ -73,6 +73,9 @@ dataset_fields:
 - field_name: custom_lighthorse
   label: Custom Lighthorse
 
+- field_name: custom_lighthorse2
+  label: Custom Lighthorse2
+
 
 resource_fields:
 
