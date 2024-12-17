@@ -58,18 +58,6 @@ dataset_fields:
   display_snippet: email.html
   display_email_name_field: author
 
-- field_name: maintainer
-  label: Maintainer
-  form_placeholder: Joe Bloggs
-  display_property: dc:contributor
-
-- field_name: maintainer_email
-  label: Maintainer Email
-  form_placeholder: joe@example.com
-  display_property: dc:contributor
-  display_snippet: email.html
-  display_email_name_field: maintainer
-
 - field_name: custom_lighthorse
   label: Custom Lighthorse
 
