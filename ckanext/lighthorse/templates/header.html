@@ -3,7 +3,7 @@
 {% block header_site_navigation_tabs %}
   {% if c.userobj %}
   <li>
-    <a href="https://s3browser.internal.lighthorsetx.com">{{ _('S3 Browser') }}</a>
+    <a href="https://s3browser.internal.lighthorsetx.com" target="_blank">{{ _('S3 Browser') }}</a>
   </li>
   {% endif %}
   {% set org_type = h.default_group_type('organization') %}
