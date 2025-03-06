@@ -1,0 +1,9 @@
+{% import 'macros/form.html' as form %}
+
+<style>
+label[for='url_bucket']{
+    display: none;
+}
+
+</style>
+{{ form.input('url_bucket', label=_('S3 link'), attrs={"hidden":true} )}}

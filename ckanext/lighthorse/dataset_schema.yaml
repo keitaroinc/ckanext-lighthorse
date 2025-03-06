@@ -83,3 +83,7 @@ resource_fields:
 - field_name: format
   label: Format
   preset: resource_format_autocomplete
+
+- field_name: url_bucket
+  label: url_bucket
+  form_snippet: url_bucket.html
