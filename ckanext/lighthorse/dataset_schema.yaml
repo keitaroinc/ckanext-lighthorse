@@ -85,5 +85,5 @@ resource_fields:
   preset: resource_format_autocomplete
 
 - field_name: url_bucket
-  label: url_bucket
-  form_snippet: url_bucket.html
+  label: S3 Object url
+  help_text: Automatically filled on resource creation. If You manually change the resource url, this url should be changed accordingly.
